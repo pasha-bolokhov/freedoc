@@ -1,4 +1,4 @@
-# FreeDoc — Scale down HTML load
+# FreeDoc — Scale down your HTML load
 
 
 ## Why FreeDoc
