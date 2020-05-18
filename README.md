@@ -28,7 +28,7 @@ Whether you are using React components with capital letters, Angular components 
 and custom attributes, they are all transparent to FreeDoc
 
 Python and YAML are good examples of languages where formatting gives meaning to the contents.
-*Talk more about difficulty of maintaining formatting, and why it is easy in the case of YAML*
+*Talk more about the difficulty of maintaining formatting, and why it is easy in the case of YAML*
 
 ## Syntax
 
