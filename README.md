@@ -27,6 +27,8 @@ FreeDoc does not interpret the tags that you are providing in the mark–up.
 Whether you are using React components with capital letters, Angular components with custom tags
 and custom attributes, they are all transparent to FreeDoc
 
+Python and YAML are good examples of languages where formatting gives meaning to the contents.
+*Talk more about difficulty of maintaining formatting, and why it is easy in the case of YAML*
 
 ## Syntax
 
