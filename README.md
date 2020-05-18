@@ -28,7 +28,10 @@ Whether you are using React components with capital letters, Angular components 
 and custom attributes, they are all transparent to FreeDoc
 
 Python and YAML are good examples of languages where formatting gives meaning to the contents.
+
 *Talk more about the difficulty of maintaining formatting, and why it is easy in the case of YAML*
+
+*Talk about Json*
 
 ## Syntax
 
@@ -147,19 +150,19 @@ $ freedoc --input-folder=src/app --output-folder=dist/Messenger
 
 ## A meaningful comparison between FreeDoc and HTML
 
-Compare a real example,
+Compare a realistic example,
 ```html
   <div>
     <div class="Polaris-Card">
       <ul class="Polaris-OptionList">
         <li>
           <p class="Polaris-OptionList__Title">Inventory Location</p>
-          <ul class="Polaris-OptionList__Options" id="PolarisOptionList2-0">
-            <li class="Polaris-OptionList-Option" tabindex="-1"><button id="0" type="button" class="Polaris-OptionList-Option__SingleSelectOption">Byward Market</button></li>
-            <li class="Polaris-OptionList-Option" tabindex="-1"><button id="1" type="button" class="Polaris-OptionList-Option__SingleSelectOption">Centretown</button></li>
-            <li class="Polaris-OptionList-Option" tabindex="-1"><button id="2" type="button" class="Polaris-OptionList-Option__SingleSelectOption">Hintonburg</button></li>
-            <li class="Polaris-OptionList-Option" tabindex="-1"><button id="3" type="button" class="Polaris-OptionList-Option__SingleSelectOption">Westboro</button></li>
-            <li class="Polaris-OptionList-Option" tabindex="-1"><button id="4" type="button" class="Polaris-OptionList-Option__SingleSelectOption">Downtown</button></li>
+          <ul class="Polaris-OptionList__Options">
+            <li tabindex="-1"><button id="0" type="button">Byward Market</button></li>
+            <li tabindex="-1"><button id="1" type="button">Centretown</button></li>
+            <li tabindex="-1"><button id="2" type="button">Hintonburg</button></li>
+            <li tabindex="-1"><button id="3" type="button">Westboro</button></li>
+            <li tabindex="-1"><button id="4" type="button">Downtown</button></li>
           </ul>
         </li>
       </ul>
@@ -173,10 +176,10 @@ to its FreeDoc counterpart
       ul class="Polaris-OptionList"
         li
           p class="Polaris-OptionList__Title" | Inventory Location
-          ul class="Polaris-OptionList__Options" id="PolarisOptionList2-0"
-            li class="Polaris-OptionList-Option" tabindex="-1" | button id="0" type="button" class="Polaris-OptionList-Option__SingleSelectOption" | Byward Market
-            li class="Polaris-OptionList-Option" tabindex="-1" | button id="1" type="button" class="Polaris-OptionList-Option__SingleSelectOption" | Centretown
-            li class="Polaris-OptionList-Option" tabindex="-1" | button id="2" type="button" class="Polaris-OptionList-Option__SingleSelectOption" | Hintonburg
-            li class="Polaris-OptionList-Option" tabindex="-1" | button id="3" type="button" class="Polaris-OptionList-Option__SingleSelectOption" | Westboro
-            li class="Polaris-OptionList-Option" tabindex="-1" | button id="4" type="button" class="Polaris-OptionList-Option__SingleSelectOption" | Downtown
+          ul class="Polaris-OptionList__Options"
+            li tabindex="-1" | button id="0" type="button" | Byward Market
+            li tabindex="-1" | button id="1" type="button" | Centretown
+            li tabindex="-1" | button id="2" type="button" | Hintonburg
+            li tabindex="-1" | button id="3" type="button" | Westboro
+            li tabindex="-1" | button id="4" type="button" | Downtown
 ```
